@@ -1,0 +1,119 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Manpage of conqdriv</TITLE>
+</HEAD><BODY>
+<H1>conqdriv</H1>
+Section: Games and Demos (6)<BR>Updated: <BR><A HREF="#index">Index</A>
+<A HREF="../index.html">Return to Main Contents</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME</H2>
+
+conqdriv - Drive a Conquest universe.
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<P>
+
+<B>conqdriv</B> [-f]
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<P>
+
+<B>conqdriv</B> is a process that is automatically started and stopped
+by the conquest server <B>conquestd</B> as needed.  It is used to drive
+the universe, and should not be started by ordinary users.  Management
+of the <B>conqdriv</B> process is automatically handled by
+<B>conquestd</B> as needed.
+<P>
+
+When run with the <B>-f</B> option, <B>conqdriv</B> will cause any
+currently running <B>conqdriv</B> process to terminate, and then take
+control of the universe directly.  This option is only of use to
+developers for debugging purposes.
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+<P>
+
+<DL COMPACT>
+<DT><B>-f</B>
+
+<DD>
+Force any other <B>conqdriv</B> process to terminate, and assume direct
+control of the universe.
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+Jon Trulson
+<A NAME="lbAG">&nbsp;</A>
+<H2>SEE ALSO</H2>
+
+<P>
+
+<A HREF="../man6/conquest.6.html">conquest</A>(6), <A HREF="../man6/conquestd.6.html">conquestd</A>(6), <A HREF="../man6/conqoper.6.html">conqoper</A>(6), <A HREF="../man6/conqdriv.6.html">conqdriv</A>(6), <A HREF="../man6/conquestsh.6.html">conquestsh</A>(6),
+<A HREF="../man6/conqmetad.6.html">conqmetad</A>(6) 
+<P>
+
+See README in the conquest distribution (usually installed in
+&lt;conquest install prefix&gt;/etc/) for information and tips on how to
+play. 
+<P>
+
+See INSTALL for instructions on unpacking, compiling, and installing
+conquest, as well as information on terminfo requirements (for the
+curses client) and other system specific issues.
+<P>
+
+See README.cygwin for information on building/using conquest on MS
+Windows systems. 
+<P>
+
+See HISTORY for the latest news and modification history.
+<P>
+
+See CONQINIT.TXT for information on CQI, and the format of the
+conqinitrc and texturesrc files.
+<A NAME="lbAH">&nbsp;</A>
+<H2>COPYRIGHT</H2>
+
+<P>
+
+Copyright (C)1994-2006 by Jon Trulson &lt;<A HREF="mailto:jon@radscan.com">jon@radscan.com</A>&gt; under the
+ARTISTIC License.
+<P>
+
+Original VAX/VMS Ratfor Conquest:
+<P>
+
+Copyright (C)1983-1986 by Jef Poskanzer and Craig Leres.  Permission to
+use, copy, modify, and distribute this software and its documentation
+for any purpose and without fee is hereby granted, provided that this
+copyright notice appear in all copies and in all supporting
+documentation. Jef Poskanzer and Craig Leres make no representations
+about the suitability of this software for any purpose. It is provided
+&quot;as is&quot; without express or implied warranty.
+<P>
+<P>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DT><A HREF="#lbAF">AUTHOR</A><DD>
+<DT><A HREF="#lbAG">SEE ALSO</A><DD>
+<DT><A HREF="#lbAH">COPYRIGHT</A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+using the manual pages.<BR>
+Time: 06:28:16 GMT, August 10, 2008
+</BODY>
+</HTML>

@@ -1,0 +1,96 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Manpage of CONQAI</TITLE>
+</HEAD><BODY>
+<H1>CONQAI</H1>
+Section: Misc. Reference Manual Pages (6)<BR><A HREF="#index">Index</A>
+<A HREF="../index.html">Return to Main Contents</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME </H2>
+
+conqai --- Conquest AI override program 
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS </H2>
+
+<P>
+
+<B>conqai</B> [<B>-r</B>]  
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION </H2>
+
+<P>
+
+<B>conqai</B> is a program that allows suitably privileged individuals
+to take over robot control from the Conquest driver for debugging
+purposes.  In order to use this command, you must be a member of the
+conquest group (or root).  This command is used strictly for debugging
+the AI code.  When you run it, it will tell the driver to relinquish
+control of the robot AI and turn it over to <B>conqai</B>.
+<P>
+
+When finished with your debugging, do not forget to return AI control
+back to the Conquest driver with the <I>-r</I> option.  If you fail to
+do this, then the robots will stand around doing nothing unless
+<B>conqai</B> is running.
+<P>
+
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS </H2>
+
+<DL COMPACT>
+<DT><B>-r</B>         <DD>
+Return control of the robots to the Conquest driver.  Be sure to do
+this after you are finished running conqai to debug the AI, otherwise
+the robots won't do anything but sit there.
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>SEE ALSO </H2>
+
+<P>
+
+conquest (6), conqoper (6), conqstrat (6). 
+<A NAME="lbAG">&nbsp;</A>
+<H2>AUTHOR </H2>
+
+<P>
+
+This manual page was originally written by Clint Adams
+&lt;<A HREF="mailto:schizo@debian.org">schizo@debian.org</A>&gt; for the <B>Debian</B> system (but may be used by
+others).  Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU GPL.  Conquest is
+<P>
+
+Copyright (C)1994-2006 by Jon Trulson &lt;<A HREF="mailto:jon@radscan.com">jon@radscan.com</A>&gt; under the
+ARTISTIC License.
+<P>
+
+Original VAX/VMS Ratfor Conquest:
+<P>
+
+Copyright (C)1983-1986 by Jef Poskanzer and Craig Leres.  Permission to
+use, copy, modify, and distribute this software and its documentation
+for any purpose and without fee is hereby granted, provided that this
+copyright notice appear in all copies and in all supporting
+documentation. Jef Poskanzer and Craig Leres make no representations
+about the suitability of this software for any purpose. It is provided
+&quot;as is&quot; without express or implied warranty.
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME </A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS </A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION </A><DD>
+<DT><A HREF="#lbAE">OPTIONS </A><DD>
+<DT><A HREF="#lbAF">SEE ALSO </A><DD>
+<DT><A HREF="#lbAG">AUTHOR </A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+using the manual pages.<BR>
+Time: 06:28:16 GMT, August 10, 2008
+</BODY>
+</HTML>
